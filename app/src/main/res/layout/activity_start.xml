@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_sowa" />
+
+    <Button
+        android:id="@+id/new_game"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="New Game"
+        app:backgroundTint="#00BCD4" />
+
+    <Button
+        android:id="@+id/scoreboard"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Scoreborard"
+        app:backgroundTint="#FF9800" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        app:backgroundTint="#E91E63" />
+
+</LinearLayout>

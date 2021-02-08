@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MemoryGame</string>
+    <string name="Moves">Beweeg:</string>
+    <string name="Pairs">Pare:</string>
+    <string name="Time">Tyd</string>
+    <string name="Congratulations">Baie geluk jy het gewen !!</string>
+    <string name="Restart">Begin oor?</string>
+</resources>
